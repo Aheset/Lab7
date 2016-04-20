@@ -1,0 +1,95 @@
+var groceryList = [];
+groceryList[0]= {name: "bread", price: 2.99};
+groceryList[1]= {name: "cereal", price: 1.99};
+groceryList[2]= {name: "banana", price: 0.99};
+
+var total = 0;
+groceryList.forEach(function(el){
+  console.log(el.name + " $ " + el.price);
+  total += el.price;
+  
+  
+});
+
+console.log("Total price: " + total); 
+
+
+var groceryList = [];
+groceryList[0]= {name: "bread", price: 2.99};
+groceryList[1]= {name: "cereal", price: 1.99};
+groceryList[2]= {name: "banana", price: 0.99};
+
+groceryList.forEach(function(el){
+  console.log(el.name);
+  console.log(el.price);
+ 
+});
+
+console.log(groceryList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+var bread = {name: "bread", price: 2.99};
+var cereal = {name: "cereal", price: 1.99};
+var banana = {name: "banana", price: 0.99};
+  
+
+myGrocery = [bread, cereal, banana];
+
+myGrocery.forEach(function(el){
+  console.log(el.name);
+  console.log(el.price);
+});
+
+
+function total()
+{
+  totalbill = bread.price + cereal.price + banana.price;
+  console.log("the total bill is:" + totalbill);
+}
+
+total();
+
+
+
+
+http://jsbin.com/xepelevoqe/edit?js,console,output
+
+var groceries = [
+ +	{
+ +		name: "Milk",
+ +		price: 2.00
+ +	},
+ +	{
+ +		name: "Eggs",
+ +		price: 2.99
+ +	},
+ +	{
+ +		name: "Bread",
+ +		price: 3.50
+ +	},
+ +	{
+ +		name: "Cheese",
+ +		price: 4.00
+ +	},
+ +];
+ +
+ +var total = 0;
+ +
+ +groceries.forEach(function(el) {
+ +	console.log(el.name + " costs $" + el.price);
+ +	total += el.price;
+ +
+ +});
+ +
+ +console.log("Total: $" + total); 
